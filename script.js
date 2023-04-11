@@ -1,8 +1,3 @@
-//alert source: https://sweetalert.js.org
-//scrollbar source: https://medium.com/spemer/customize-websites-scrollbar-with-css-270ca436d6c1
-//download source: https://micropilot.tistory.com/2253
-//platform filter source: https://stove99.tistory.com/87
-
 $(document).ready(function () {
     var filter = "win16|win32|win64|mac|macintel";
     var userAgent = navigator.userAgent.toLowerCase();
@@ -47,8 +42,8 @@ $(document).ready(function () {
                             icon: "success",
                             button: "확인"
                         });
-                        $('#downloadLink').prop('href', 'https://bearyu.kr/download/rutae/루태100인_시참_Armourers_Workshop.zip');
-                        $('#downloadLink').prop('download', '루태100인_시참_Armourers_Workshop.zip');
+                        //$('#downloadLink').prop('href', 'file link');
+                        //$('#downloadLink').prop('download', 'file name.zip');
                         $('#downloadLink')[0].click();
                     }
                 });
