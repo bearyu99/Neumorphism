@@ -44,7 +44,7 @@ $(document).ready(function () {
                         });
                         //$('#downloadLink').prop('href', 'file link');
                         //$('#downloadLink').prop('download', 'file name.zip');
-                        $('#downloadLink')[0].click();
+                        //$('#downloadLink')[0].click();
                     }
                 });
         }else {
