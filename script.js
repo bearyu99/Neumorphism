@@ -29,7 +29,7 @@ $(document).ready(function () {
     $('#btnDownload').click(function (e) {
         var d = new Date();
         var date = d.getDay();
-        if (true) { // date == 1 || date == 2
+        if (date == 1 || date == 2) {
             swal({
                 text: "다운로드 하시겠습니까?",
                 buttons: ["아니요", "예"],
